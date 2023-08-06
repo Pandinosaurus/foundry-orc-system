@@ -1,1 +1,1 @@
-@reboot sh $ORCS_SYSTEM_PATH/scripts/auto_pull/auto_pull.sh
+@reboot sleep 60 && sh $ORCS_SYSTEM_PATH/scripts/auto_pull/auto_pull.sh
